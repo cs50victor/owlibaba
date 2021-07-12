@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@components": ["components/index.jsx"],
+      "@layouts/*": ["layouts/*"],
+      "@lib/*": ["lib/*"],
+      "@utils/*": ["utils/*"],
+      "@utils": ["utils"],
+      "@pages/*": ["pages/*"],
+      "@api/*": ["pages/api/*"],
+      "@data/*": ["data/*"]
+    }
+  }
+}
