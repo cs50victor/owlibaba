@@ -27,7 +27,7 @@ export default function Shipping() {
                     tw="block relative font-bold font-headline text-3xl sm:(text-5xl) "
                     passive
                   >
-                    Enable notifications
+                    Start Shipping
                   </Switch.Label>
                   <Switch
                     checked={startShipping}
@@ -48,6 +48,111 @@ export default function Shipping() {
                   <div tw="w-10 h-[700px] relative mx-auto">
                     <Image src={"/images/road.png"} alt="" layout="fill" />
                   </div>
+                </Switch.Group>
+                <Switch.Group>
+                  <Switch.Label
+                    tw="block relative font-bold font-headline text-3xl sm:(text-5xl) "
+                    passive
+                  >
+                    Charleston , SC
+                  </Switch.Label>
+                  <Switch
+                    checked={startShipping}
+                    onChange={setStartShipping}
+                    css={[
+                      tw`relative my-4 inline-flex flex-shrink-0 h-[38px] w-[74px] border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:(outline-none ring-2 ring-white ring-opacity-75)`,
+                      startShipping ? tw`bg-green-900` : tw`bg-red-700`,
+                    ]}
+                  >
+                    <span
+                      aria-hidden="true"
+                      css={[
+                        tw`pointer-events-none inline-block h-[34px] w-[34px] rounded-full bg-white shadow-lg transform ring-0 transition ease-in-out duration-200`,
+                        startShipping ? tw`translate-x-9` : tw`translate-x-0`,
+                      ]}
+                    />
+                  </Switch>
+                  <div tw="w-10 h-[700px] relative mx-auto">
+                    <Image src={"/images/road.png"} alt="" layout="fill" />
+                  </div>
+                </Switch.Group>
+                <Switch.Group>
+                  <Switch.Label
+                    tw="block relative font-bold font-headline text-3xl sm:(text-5xl) "
+                    passive
+                  >
+                    Montgomery, Alabama
+                  </Switch.Label>
+                  <Switch
+                    checked={startShipping}
+                    onChange={setStartShipping}
+                    css={[
+                      tw`relative my-4 inline-flex flex-shrink-0 h-[38px] w-[74px] border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:(outline-none ring-2 ring-white ring-opacity-75)`,
+                      startShipping ? tw`bg-green-900` : tw`bg-red-700`,
+                    ]}
+                  >
+                    <span
+                      aria-hidden="true"
+                      css={[
+                        tw`pointer-events-none inline-block h-[34px] w-[34px] rounded-full bg-white shadow-lg transform ring-0 transition ease-in-out duration-200`,
+                        startShipping ? tw`translate-x-9` : tw`translate-x-0`,
+                      ]}
+                    />
+                  </Switch>
+                  <div tw="w-10 h-[700px] relative mx-auto">
+                    <Image src={"/images/road.png"} alt="" layout="fill" />
+                  </div>
+                </Switch.Group>
+                <Switch.Group>
+                  <Switch.Label
+                    tw="block relative font-bold font-headline text-3xl sm:(text-5xl) "
+                    passive
+                  >
+                    Austin, Texas
+                  </Switch.Label>
+                  <Switch
+                    checked={startShipping}
+                    onChange={setStartShipping}
+                    css={[
+                      tw`relative my-4 inline-flex flex-shrink-0 h-[38px] w-[74px] border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:(outline-none ring-2 ring-white ring-opacity-75)`,
+                      startShipping ? tw`bg-green-900` : tw`bg-red-700`,
+                    ]}
+                  >
+                    <span
+                      aria-hidden="true"
+                      css={[
+                        tw`pointer-events-none inline-block h-[34px] w-[34px] rounded-full bg-white shadow-lg transform ring-0 transition ease-in-out duration-200`,
+                        startShipping ? tw`translate-x-9` : tw`translate-x-0`,
+                      ]}
+                    />
+                  </Switch>
+                  <div tw="w-10 h-[700px] relative mx-auto">
+                    <Image src={"/images/road.png"} alt="" layout="fill" />
+                  </div>
+                </Switch.Group>
+                <Switch.Group>
+                  <Switch.Label
+                    tw="block relative font-bold font-headline text-3xl sm:(text-5xl) "
+                    passive
+                  >
+                    Package has been Delivered
+                  </Switch.Label>
+                  <Switch
+                    checked={startShipping}
+                    onChange={setStartShipping}
+                    css={[
+                      tw`relative my-4 inline-flex flex-shrink-0 h-[38px] w-[74px] border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:(outline-none ring-2 ring-white ring-opacity-75)`,
+                      startShipping ? tw`bg-green-900` : tw`bg-red-700`,
+                    ]}
+                  >
+                    <span
+                      aria-hidden="true"
+                      css={[
+                        tw`pointer-events-none inline-block h-[34px] w-[34px] rounded-full bg-white shadow-lg transform ring-0 transition ease-in-out duration-200`,
+                        startShipping ? tw`translate-x-9` : tw`translate-x-0`,
+                      ]}
+                    />
+                  </Switch>
                 </Switch.Group>
               </div>
             </div>
