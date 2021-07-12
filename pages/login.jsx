@@ -62,7 +62,7 @@ export default function Login() {
     } finally {
       setTimeout(() => {
         setIsLoading(false)
-      }, 3000)
+      }, 5500)
       router.push("/")
     }
   }

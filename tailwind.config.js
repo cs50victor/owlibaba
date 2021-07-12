@@ -48,7 +48,7 @@ module.exports = {
           "Helvetica",
           "sans-serif",
         ],
-        headline: ["Special Font Name", "Inter", "sans-serif"],
+        headline: ["RocherColor", "Inter", "sans-serif"],
       },
       borderRadius: {
         brand: "9px",

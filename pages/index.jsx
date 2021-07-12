@@ -36,8 +36,6 @@ export default function Home() {
   let [isOpen, setIsOpen] = useState(false)
   const [currProduct, setCurrProduct] = useState({})
 
-  let updateProduct = useRef(null)
-
   const closeModal = () => {
     setIsOpen(false)
   }
@@ -88,12 +86,7 @@ export default function Home() {
                   </span>
                 </button>
               ))}
-              <Modal
-                product={currProduct}
-                isOpen={isOpen}
-                closeModal={closeModal}
-                updateProduct={updateProduct}
-              />
+              <Modal product={currProduct} isOpen={isOpen} closeModal={closeModal} />
             </div>
           </div>
         </section>
@@ -102,8 +95,10 @@ export default function Home() {
   )
 }
 
-const Modal = ({ product, isOpen, closeModal, updateProduct }) => {
+const Modal = ({ product, isOpen, closeModal }) => {
   const router = useRouter()
+  let updateProduct = useRef()
+  console.log(updateProduct)
 
   const [bought, setBought] = useState("No") //No, Yes, Loading
 
@@ -180,7 +175,11 @@ const Modal = ({ product, isOpen, closeModal, updateProduct }) => {
                 >
                   Quick Buy
                 </Dialog.Title>
-                <button tw="hocus:(outline-none appearance-none)" onClick={closeModal}>
+                <button
+                  ref={updateProduct}
+                  tw="hocus:(outline-none appearance-none)"
+                  onClick={closeModal}
+                >
                   <XCircleIcon width={25} />
                 </button>
               </div>

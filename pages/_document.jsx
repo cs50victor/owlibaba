@@ -40,6 +40,13 @@ export default class MyDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
+          <link
+            rel="preload"
+            href="/fonts/RocherColorGX.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
           <link rel="manifest" href="favicon/site.webmanifest" />
           <link href="favicon/favicon.ico" rel="shortcut icon" />
           <link

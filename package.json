@@ -21,7 +21,6 @@
     "@styled-icons/simple-icons": "^10.33.0",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/line-clamp": "^0.2.1",
-    "gsap": "^3.7.0",
     "next": "latest",
     "next-themes": "^0.0.14",
     "react": "^17.0.2",
