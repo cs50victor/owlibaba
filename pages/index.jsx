@@ -90,6 +90,17 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div tw="relative fixed bottom-3 right-3 bg-indigo-700 z-[100] text-white px-5 py-2 rounded-full text-center">
+          {/*
+            Call us: 
+          <br/>
+          (681)-334-0464
+          <br/>
+          or
+          <br/>
+           */}
+          <span>Chat with Us</span>
+        </div>
       </main>
     </MarketingContainer>
   )
@@ -98,7 +109,6 @@ export default function Home() {
 const Modal = ({ product, isOpen, closeModal }) => {
   const router = useRouter()
   let updateProduct = useRef()
-  console.log(updateProduct)
 
   const [bought, setBought] = useState("No") //No, Yes, Loading
 
@@ -124,7 +134,7 @@ const Modal = ({ product, isOpen, closeModal }) => {
     } finally {
       setBought("Yes")
       setTimeout(() => {
-        router.push("/shipping")
+        router.push("/")
       }, 5000)
     }
   }
