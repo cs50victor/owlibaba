@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image from "next/Image"
+import Image from "next/image"
 import tw from "twin.macro"
 import { Button } from "@components"
 import MarketingContainer from "@layouts/MarketingContainer"
