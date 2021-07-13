@@ -12,6 +12,7 @@ module.exports = {
       "pbs.twimg.com", // twitter
       "images.unsplash.com",
       "i.pinimg.com",
+      "media1.giphy.com",
     ],
   },
   i18n: {
