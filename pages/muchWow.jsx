@@ -4,7 +4,12 @@ import tw from "twin.macro"
 import { Button } from "@components"
 import MarketingContainer from "@layouts/MarketingContainer"
 import { Youtube } from "@styled-icons/simple-icons"
-import { SparklesIcon, FilmIcon,FireIcon,OfficeBuildingIcon } from "@heroicons/react/solid";
+import {
+  SparklesIcon,
+  FilmIcon,
+  FireIcon,
+  OfficeBuildingIcon,
+} from "@heroicons/react/solid"
 
 export default function MuchWow() {
   return (
@@ -15,25 +20,25 @@ export default function MuchWow() {
           <Image src="/images/wow.gif" alt="" layout="fill" />
         </div>
         <div tw="mb-8">
-          <span  tw="w-full inline-flex max-w-md items-center justify-center">
-            <Youtube tw="w-10 h-10 text-red-600"/>
+          <span tw="w-full inline-flex max-w-md items-center justify-center">
+            <Youtube tw="w-10 h-10 text-red-600" />
             {" -> "}
-            <SparklesIcon tw="h-5 w-5 text-yellow-600"/>
+            <SparklesIcon tw="h-5 w-5 text-yellow-600" />
             {" -> "}
-            <FilmIcon tw="w-10 h-10"/>
+            <FilmIcon tw="w-10 h-10" />
             {" -> "}
-            <SparklesIcon tw="h-5 w-5 text-indigo-600"/>
+            <SparklesIcon tw="h-5 w-5 text-indigo-600" />
             {" -> "}
-            <FireIcon tw="w-10 h-10 text-red-900"/>
+            <FireIcon tw="w-10 h-10 text-red-900" />
             {" -> "}
-            <SparklesIcon tw="h-5 w-5 text-purple-600"/>
+            <SparklesIcon tw="h-5 w-5 text-purple-600" />
             {" -> "}
-            <OfficeBuildingIcon tw="w-10 h-10"/>
+            <OfficeBuildingIcon tw="w-10 h-10 text-yellow-900" />
             {" -> "}
-            <SparklesIcon tw="h-5 w-5 text-green-700"/>
-          </span  >
+            <SparklesIcon tw="h-5 w-5 text-green-700" />
+          </span>
         </div>
-        
+
         <Link href="/" passHref>
           <Button as="a" tw="p-4 w-64 font-extrabold mx-auto">
             Back to Owlibaba
