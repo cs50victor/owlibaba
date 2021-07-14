@@ -134,7 +134,7 @@ const Modal = ({ product, isOpen, closeModal }) => {
     } finally {
       setBought("Yes")
       setTimeout(() => {
-        router.push("/muchWow")
+        router.push("/complete")
       }, 4000)
     }
   }

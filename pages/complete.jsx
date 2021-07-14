@@ -11,11 +11,11 @@ import {
   OfficeBuildingIcon,
 } from "@heroicons/react/solid"
 
-export default function MuchWow() {
+export default function complete() {
   return (
     <MarketingContainer title="Wow | Owlibaba" footer>
       <div tw="max-w-screen-lg mx-auto text-center min-h-full pt-20 pb-36 px-5">
-        <div tw="text-5xl md:text-5xl mb-20 font-bold">Random Page</div>
+        <div tw="text-5xl md:text-5xl mb-20 font-bold">Your Order Is Processing </div>
         <div tw="relative w-80 h-72 mx-auto mb-10">
           <Image src="/images/wow.gif" alt="" layout="fill" />
         </div>
